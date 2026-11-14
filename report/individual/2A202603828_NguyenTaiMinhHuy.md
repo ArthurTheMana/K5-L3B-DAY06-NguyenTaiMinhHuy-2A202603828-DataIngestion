@@ -12,7 +12,7 @@ Trong bài thực hành này, mình xây dựng một hệ thống có thể đ�
 
 Mình sử dụng hai tài liệu. Tài liệu thứ nhất là *A Gentle Introduction to Artificial Intelligence and Machine Learning*, được lưu với mã `uow_ai_ml`, có 56 trang PDF. Tài liệu thứ hai là *A non-technical introduction to machine learning* của Olivier Colliot, được lưu với mã `colliot_ml_2023`, có 26 trang PDF. Nguồn của tài liệu thứ hai được ghi trong manifest tại [HAL](https://hal.science/hal-03957125v3).
 
-Tổng cộng, bộ dữ liệu có 82 trang PDF. Kết quả kiểm tra trong `retrieval_metrics.json` ghi nhận 44 trang nội dung hữu ích của tài liệu UOW và 23 trang của tài liệu Colliot, tương đương 67 trang. Việc đếm sử dụng số trang PDF thực tế, bắt đầu từ trang 1, và loại các trang không có nội dung đủ hữu ích như trang bìa hoặc trang chỉ chứa thông tin phụ.
+Tổng cộng, bộ dữ liệu có 82 trang PDF. Kết quả kiểm tra trong `retrieval_metrics.json` ghi nhận 44 trang nội dung hữu ích của tài liệu UOW và 23 trang của tài liệu Colliot, tương đương 67 trang. Việc đếm sử dụng số trang PDF thực tế, bắt đầu từ trang 1 và loại các trang không có nội dung đủ hữu ích như trang bìa hoặc trang chỉ chứa thông tin phụ.
 
 Tuy nhiên, mình nhận thấy bản `corpus_manifest.json` hiện được lưu vẫn ghi `valid_content_pages = 0` ở cả hai tài liệu, chưa khớp với kết quả 67 trang trong metrics. Đây là thông tin mình cần cập nhật và kiểm tra lại trước khi nộp bài, thay vì coi manifest hiện tại là đã hoàn chỉnh.
 
@@ -119,4 +119,4 @@ Nếu thực hiện lại, mình sẽ hoàn thiện manifest để số trang kh
 
 Trong quá trình làm bài, mình có sử dụng ChatGPT để hỗ trợ hiểu yêu cầu, giải thích code, kiểm tra kết quả và gợi ý cách chấm thủ công. Mình vẫn cần tự đối chiếu các điểm đánh giá với nội dung PDF và giải thích được vì sao mình chọn từng chiến lược. Những nhận xét và nhãn chấm còn ở trạng thái đề xuất không nên được trình bày như kết quả xác nhận độc lập.
 
-Qua bài thực hành này, mình hiểu rõ hơn rằng chất lượng tìm kiếm không chỉ phụ thuộc vào embedding model. Cách trích xuất văn bản, chia chunks và sử dụng metadata đều có thể ảnh hưởng đến bằng chứng mà hệ thống lấy được. Với corpus hiện tại, mình chọn C làm hướng phát triển tiếp theo vì khả năng kiểm soát phạm vi tài liệu, đồng thời vẫn cần thêm đánh giá trước khi khẳng định hiệu quả lâu dài.
+Mình hiểu rõ hơn rằng chất lượng tìm kiếm không chỉ phụ thuộc vào embedding model. Cách trích xuất văn bản, chia chunks và sử dụng metadata đều có thể ảnh hưởng đến bằng chứng mà hệ thống lấy được. Với corpus hiện tại, mình chọn C làm hướng phát triển tiếp theo vì khả năng kiểm soát phạm vi tài liệu và đồng thời vẫn cần thêm đánh giá trước khi khẳng định hiệu quả lâu dài.
