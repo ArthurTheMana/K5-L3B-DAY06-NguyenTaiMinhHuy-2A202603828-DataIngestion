@@ -14,7 +14,7 @@ Mình sử dụng hai tài liệu. Tài liệu thứ nhất là *A Gentle Introd
 
 Tổng cộng, bộ dữ liệu có 82 trang PDF. Kết quả kiểm tra trong `retrieval_metrics.json` ghi nhận 44 trang nội dung hữu ích của tài liệu UOW và 23 trang của tài liệu Colliot, tương đương 67 trang. Việc đếm sử dụng số trang PDF thực tế, bắt đầu từ trang 1 và loại các trang không có nội dung đủ hữu ích như trang bìa hoặc trang chỉ chứa thông tin phụ.
 
-Tuy nhiên, mình nhận thấy bản `corpus_manifest.json` hiện được lưu vẫn ghi `valid_content_pages = 0` ở cả hai tài liệu, chưa khớp với kết quả 67 trang trong metrics. Đây là thông tin mình cần cập nhật và kiểm tra lại trước khi nộp bài, thay vì coi manifest hiện tại là đã hoàn chỉnh.
+Mình đã kiểm tra lại `corpus_manifest.json` và xác nhận số trang nội dung hợp lệ của tài liệu UOW là 44 trang, còn tài liệu Colliot là 23 trang. Tổng cộng có 67 trang hợp lệ trên 82 trang PDF. Các giá trị này khớp với kết quả được ghi trong `retrieval_metrics.json`, cho thấy thông tin về số trang đã được thống nhất giữa Manifest và Benchmark.
 
 Về quyền sử dụng, manifest ghi tài liệu Colliot có giấy phép `CC BY 4.0`, còn tài liệu UOW đang ở trạng thái `TO_VERIFY`. Vì vậy, mình cần xác minh quyền chia sẻ tài liệu UOW trước khi đưa file PDF hoặc nội dung trích xuất của nó lên repository công khai.
 
@@ -113,7 +113,7 @@ Dù vậy, mình không xem C là chiến lược có độ chính xác cao nh�
 
 Bài làm của mình còn một số hạn chế. Thứ nhất, tập Test nhỏ nên mỗi câu hỏi có ảnh hưởng khá lớn đến tỷ lệ phần trăm. Thứ hai, việc đối chiếu exact evidence quote có thể chấm thiếu những đoạn có ý nghĩa tương đương. Thứ ba, mẫu Coherence hiện tại chưa làm nổi bật khác biệt giữa A và B vì các đoạn được chọn giống nhau. Thứ tư, dữ liệu trích xuất từ PDF có thể bị lỗi ở hình minh họa và công thức. Cuối cùng, mình mới đo thời gian xử lý chung, chưa đo riêng tốc độ truy vấn, mức sử dụng CPU, RAM hoặc điện năng.
 
-Nếu thực hiện lại, mình sẽ hoàn thiện manifest để số trang khớp với kết quả đã kiểm tra, bổ sung cách ghi nhận lỗi PDF, chọn mẫu Coherence có khả năng phân biệt hai thuật toán chunking, thử một vài giá trị chunk size khác nhau trên Dev và đo thời gian truy vấn riêng cho từng cấu hình. Mình cũng muốn thử reranking hoặc kết hợp tìm kiếm theo từ khóa, nhưng chỉ sau khi có một bộ Test mới hoặc một tập đánh giá độc lập để tránh điều chỉnh dựa trên kết quả đã xem.
+Nếu thực hiện lại, mình sẽ bổ sung cách ghi nhận lỗi PDF, chọn mẫu Coherence có khả năng phân biệt hai thuật toán chunking, thử một vài giá trị chunk size khác nhau trên Dev và đo thời gian truy vấn riêng cho từng cấu hình. Mình cũng muốn thử reranking hoặc kết hợp tìm kiếm theo từ khóa, nhưng chỉ sau khi có một bộ Test mới hoặc một tập đánh giá độc lập để tránh điều chỉnh dựa trên kết quả đã xem.
 
 ### 4.5. Công cụ hỗ trợ và tự đánh giá
 
