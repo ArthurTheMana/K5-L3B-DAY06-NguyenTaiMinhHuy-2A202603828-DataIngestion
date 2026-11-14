@@ -1,0 +1,182 @@
+{
+  "A": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 6,
+        "total": 15,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 10,
+        "total": 15,
+        "percentage": 66.67
+      },
+      "needs_manual_evidence_review": 5
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 2,
+        "total": 5,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 3,
+        "total": 5,
+        "percentage": 60.0
+      },
+      "needs_manual_evidence_review": 2
+    }
+  },
+  "B": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 6,
+        "total": 15,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 12,
+        "total": 15,
+        "percentage": 80.0
+      },
+      "needs_manual_evidence_review": 4
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 2,
+        "total": 5,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 3,
+        "total": 5,
+        "percentage": 60.0
+      },
+      "needs_manual_evidence_review": 2
+    }
+  },
+  "C": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 6,
+        "total": 15,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 12,
+        "total": 15,
+        "percentage": 80.0
+      },
+      "needs_manual_evidence_review": 4
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 2,
+        "total": 5,
+        "percentage": 40.0
+      },
+      "evidence_hit_at_3": {
+        "hits": 3,
+        "total": 5,
+        "percentage": 60.0
+      },
+      "needs_manual_evidence_review": 2
+    }
+  },
+  "_notes": {
+    "unmatched_gold_quote_question_ids": [],
+    "accuracy": "Exact quote-and-location proxy; manually review other valid evidence",
+    "coherence": "Human scores required (0-2)",
+    "grounding": "Human scores required (0-2)",
+    "strategy_C": "Shares B chunks and vectors; applies metadata filters when supplied",
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "ingest_and_embed_seconds": 14.09,
+    "chunks": {
+      "A": 190,
+      "B": 181,
+      "C": 181
+    },
+    "chunk_mean_length": {
+      "A": 393.93,
+      "B": 383.69
+    },
+    "chunk_total_characters": {
+      "A": 74847,
+      "B": 69447
+    },
+    "api_fees_usd": 0,
+    "local_compute_energy_cost": "not measured",
+    "gold_quote_found_in_source_page": {
+      "Q01": true,
+      "Q02": true,
+      "Q03": true,
+      "Q04": true,
+      "Q05": true,
+      "Q06": true,
+      "Q07": true,
+      "Q08": true,
+      "Q09": true,
+      "Q10": true,
+      "Q11": true,
+      "Q12": true,
+      "Q13": true,
+      "Q14": true,
+      "Q15": true,
+      "Q16": true,
+      "Q17": true,
+      "Q18": true,
+      "Q19": true,
+      "Q20": true
+    },
+    "corpus": {
+      "uow_ai_ml": {
+        "pdf_pages": 56,
+        "confirmed_content_pages": 44,
+        "license_or_permission": "TO_VERIFY"
+      },
+      "colliot_ml_2023": {
+        "pdf_pages": 26,
+        "confirmed_content_pages": 23,
+        "license_or_permission": "CC BY 4.0"
+      }
+    },
+    "filter_compliance_by_strategy": {
+      "A": {
+        "filter_queries": 0,
+        "all_top3_match_filter": 0,
+        "empty_searches": 0
+      },
+      "B": {
+        "filter_queries": 0,
+        "all_top3_match_filter": 0,
+        "empty_searches": 0
+      },
+      "C": {
+        "filter_queries": 4,
+        "all_top3_match_filter": 4,
+        "empty_searches": 0
+      }
+    },
+    "metadata_presence_by_strategy": {
+      "A": {
+        "top3_chunks_with_source_page_document_type": 15,
+        "test_top3_chunks_returned": 15
+      },
+      "B": {
+        "top3_chunks_with_source_page_document_type": 15,
+        "test_top3_chunks_returned": 15
+      },
+      "C": {
+        "top3_chunks_with_source_page_document_type": 15,
+        "test_top3_chunks_returned": 15
+      }
+    }
+  }
+}

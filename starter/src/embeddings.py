@@ -1,4 +1,5 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
+"""Real local text embeddings.
+"""
 from typing import Protocol
 
 
@@ -16,14 +17,47 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
+    """TODO (starter): Implement a real provider adapter; never use mock vectors.
+    """
 
     def __init__(self, model_name: str) -> None:
+        if not model_name.strip():
+            raise ValueError("model_name cannot be empty")
+
+        try:
+            from sentence_transformers import SentenceTransformer
+        except ImportError as exc:
+            raise RuntimeError(
+                "Install the embedding dependency: "
+                "python -m pip install sentence-transformers"
+            ) from exc
+
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        self._model = SentenceTransformer(model_name, device="cpu")
+        dimensions = self._model.get_embedding_dimension()
+        if not isinstance(dimensions, int) or dimensions <= 0:
+            raise RuntimeError("The embedding model did not report valid dimensions")
+        self.dimensions = dimensions
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        if not texts:
+            return []
+        if any(not isinstance(t, str) or not t.strip() for t in texts):
+            raise ValueError("Each input document must be a non-empty string")
+
+        vectors = self._model.encode(
+            texts,
+            batch_size=16,
+            show_progress_bar=False,
+            normalize_embeddings=True,
+            convert_to_numpy=True,
+        )
+        result = vectors.tolist()
+        if len(result) != len(texts) or any(len(v) != self.dimensions for v in result):
+            raise RuntimeError("Embedding output has unexpected shape")
+        return result
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        if not isinstance(question, str) or not question.strip():
+            raise ValueError("question must be a non-empty string")
+        return self.embed_documents([question])[0]

@@ -1,0 +1,418 @@
+﻿strategy,document_id,page,chunk_id,chunk_text,coherence_0_1_2,reason
+A,colliot_ml_2023,2,colliot_ml_2023_p002_fixed_001,"Chapter 1
+A non-technical introduction
+to machine learning
+Olivier Colliot*1
+1Sorbonne Universit´e, Institut du Cerveau - Paris Brain Institute - ICM,
+CNRS, Inria, Inserm, AP-HP, Hˆopital de la Piti´e-Salpˆetri`ere, F-75013, Paris,
+France
+*Corresponding author: e-mail address: olivier.colliot@cnrs.fr
+Abstract
+This chapter provides an introduction to machine learning for a non-
+technical readership. Machine learning is an approach to articial intelli-
+gence. The chapter thus starts with a brief ",1,"The paragraph introduced clearly what is Machine Learning but it got cut in between, making the statement incomplete."
+A,colliot_ml_2023,3,colliot_ml_2023_p003_fixed_001,"2
+Colliot
+which are easy to perform for a human and are inherently dicult for a
+computer are for instance recognizing objects, faces or animals in pho-
+tographs, or recognizing words in speech. On the other hand, there are
+also tasks which are inherently easy for a computer and dicult for a hu-
+man, such as computing with large numbers or memorizing exactly huge
+amounts of text. Machine learning is the AI technique that has achieved
+the most impressive successes over the past years. However, i",1,"The paragraph ends imperfectly but you can kunderstand the definition of Machine Learning."
+A,colliot_ml_2023,4,colliot_ml_2023_p004_fixed_001,"Introduction to machine learning
+3
+2000
+1950
+1960
+1970
+1980
+1990
+2020
+2010
+1940
+Artificial
+neuron model
+Turing
+test
+Dartmouth
+workshop
+Perceptron
+Back-
+propagation
+SVM
+Deep
+learning
+era
+Expert
+systems
+Figure 1: A brief timeline of AI with some of the landmark advances.
+proposed an articial neuron model, which is a mathematical abstraction
+of a biological neuron [3], and showed that sets of neurons can compute
+logical operations. In 1948, the mathematician and philosopher Norbert
+Wiener coined t",0,"The chunking is mishandled. The timeline years and event labels are scattered without clear connections, making the figure difficult to understand; the following explanation is also cut off."
+A,colliot_ml_2023,5,colliot_ml_2023_p005_fixed_001,"4
+Colliot
+on the basis of the conjecture that every aspect of learning or
+any other feature of intelligence can in principle be so pre-
+cisely described that a machine can be made to simulate it.
+An attempt will be made to nd how to make machines use
+language, form abstractions and concepts, solve kinds of prob-
+lems now reserved for humans, and improve themselves. We
+think that a signicant advance can be made in one or more of
+these problems if a carefully selected group of scientists work
+on",1,"The passage conveys the idea that intelligence may be described so machines can simulate it, but it begins in the middle of a quotation and ends before the idea is complete."
+A,colliot_ml_2023,6,colliot_ml_2023_p006_fixed_001,"Introduction to machine learning
+5
+(a)
+x1
+x2...
+xp
+y
+Axon
+Dendrites
+Axon terminal
+Cell body
+(b)
+!!
+!""
+!#
+∑
+""
+…
+$""
+$!
+Output
+Inputs
+Weights
+Sum
+Non-Linearity
+%
+$#
+Figure 2: (a) Biological neuron. The synapses form the input of the
+neuron.
+Their signals are combined and if the result exceeds a given
+threshold, the neuron is activated and produces an output signal which is
+sent through the axon. (b) The perceptron: an articial neuron which is
+inspired by biology. It is composed of the set of input",1,"The figure captions partly explain biological neurons and perceptrons, but diagram symbols are mixed into the text and the perceptron explanation is incomplete."
+A,uow_ai_ml,5,uow_ai_ml_p005_fixed_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is a constellation of many dierent
+technologies working together to enable machines to sense,
+comprehend, act, and learn with human-like levels of intelligence.
+AI isn’t just one thing. (https://accenture.com)
+5 / 40",2,"The chunk gives a complete AI definition, describing technologies that enable machines to sense, understand, act, and learn. It can be understood on its own."
+A,uow_ai_ml,6,uow_ai_ml_p006_fixed_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is the simulation of human intelligence
+processes by machines, especially computer systems. These
+processes include learning (the acquisition of information or rules
+for using the information), reasoning (using the rules to reach
+approximate or denite conclusions), and self-correction.
+(https://exploreai.org/p/ai-definition)
+5 / 40",2,"The chunk clearly defines AI as the simulation of human intelligence, including learning, reasoning, and self-correction. No additional context is needed."
+A,uow_ai_ml,7,uow_ai_ml_p007_fixed_001,"Introduction
+What is Articial Intelligence (AI)?
+Human intelligence? - Take One!
+Human intelligence is a mental quality that consists of the abilities
+to learn from experience, adapt to new situations, understand and
+handle abstract concepts, and use knowledge to manipulate one’s
+environment (https://www.britannica.com).
+Human intelligence? - Take two!
+Through intelligence, humans possess the cognitive abilities to
+learn, form concepts, understand, apply logic and reason, including
+the capaciti",1,"The first definition of human intelligence is understandable, but the second definition is cut off mid-word, leaving the overall passage incomplete."
+A,uow_ai_ml,8,uow_ai_ml_p008_fixed_001,"A bit of history
+Darthmouth meeting - 1956
+Figure: Founding Fathers of Articial Intelligence
+6 / 40",1,"The chunk identifies the 1956 Dartmouth meeting as an event in AI history, but it mainly contains a heading and figure caption without enough explanation."
+A,uow_ai_ml,10,uow_ai_ml_p010_fixed_001,"Strong vs Weak AI
+Strong AI
+Strong articial intelligence (AI), also known as articial general
+intelligence (AGI) or general AI, is a theoretical form of AI used to
+describe a certain mindset of AI development.
+Strong AI aims to create intelligent machines that are indistinguishable
+from the human mind.
+(https://www.ibm.com/cloud/learn/strong-ai)
+Weak AI
+Weak AI, also known as narrow AI, focuses on performing a specic task,
+such as answering questions based on user input or playing chess.
+It c",1,"The chunk introduces Strong AI and Weak AI and gives context about specific tasks, but the explanation of Weak AI ends mid-sentence."
+B,colliot_ml_2023,2,colliot_ml_2023_p002_paragraph_001,"Chapter 1
+A non-technical introduction
+to machine learning
+Olivier Colliot*1
+1Sorbonne Universit´e, Institut du Cerveau - Paris Brain Institute - ICM,
+CNRS, Inria, Inserm, AP-HP, Hˆopital de la Piti´e-Salpˆetri`ere, F-75013, Paris,
+France
+*Corresponding author: e-mail address: olivier.colliot@cnrs.fr
+Abstract
+This chapter provides an introduction to machine learning for a non-
+technical readership. Machine learning is an approach to articial intelli-
+gence. The chapter thus starts with a brief ",1,"The chapter title and abstract clearly introduce machine learning, but the chunk ends mid-sentence, so the introduction is incomplete."
+B,colliot_ml_2023,3,colliot_ml_2023_p003_paragraph_001,"2
+Colliot
+which are easy to perform for a human and are inherently dicult for a
+computer are for instance recognizing objects, faces or animals in pho-
+tographs, or recognizing words in speech. On the other hand, there are
+also tasks which are inherently easy for a computer and dicult for a hu-
+man, such as computing with large numbers or memorizing exactly huge
+amounts of text. Machine learning is the AI technique that has achieved
+the most impressive successes over the past years. However, i",1,"The comparison between human and computer abilities is understandable, but the chunk starts without full context and ends mid-sentence."
+B,colliot_ml_2023,4,colliot_ml_2023_p004_paragraph_001,"Introduction to machine learning
+3
+2000
+1950
+1960
+1970
+1980
+1990
+2020
+2010
+1940
+Artificial
+neuron model
+Turing
+test
+Dartmouth
+workshop
+Perceptron
+Back-
+propagation
+SVM
+Deep
+learning
+era
+Expert
+systems
+Figure 1: A brief timeline of AI with some of the landmark advances.
+proposed an articial neuron model, which is a mathematical abstraction
+of a biological neuron [3], and showed that sets of neurons can compute
+logical operations. In 1948, the mathematician and philosopher Norbert
+Wiener coined t",0,"The timeline years and event labels are scattered without clear connections, making the figure difficult to understand; the following explanation is also cut off."
+B,colliot_ml_2023,5,colliot_ml_2023_p005_paragraph_001,"4
+Colliot
+on the basis of the conjecture that every aspect of learning or
+any other feature of intelligence can in principle be so pre-
+cisely described that a machine can be made to simulate it.
+An attempt will be made to nd how to make machines use
+language, form abstractions and concepts, solve kinds of prob-
+lems now reserved for humans, and improve themselves. We
+think that a signicant advance can be made in one or more of
+these problems if a carefully selected group of scientists work
+on",1,"The passage conveys the idea that intelligence may be described so machines can simulate it, but it begins in the middle of a quotation and ends before the idea is complete."
+B,colliot_ml_2023,6,colliot_ml_2023_p006_paragraph_001,"Introduction to machine learning
+5
+(a)
+x1
+x2...
+xp
+y
+Axon
+Dendrites
+Axon terminal
+Cell body
+(b)
+!!
+!""
+!#
+∑
+""
+…
+$""
+$!
+Output
+Inputs
+Weights
+Sum
+Non-Linearity
+%
+$#
+Figure 2: (a) Biological neuron. The synapses form the input of the
+neuron.
+Their signals are combined and if the result exceeds a given
+threshold, the neuron is activated and produces an output signal which is
+sent through the axon. (b) The perceptron: an articial neuron which is
+inspired by biology. It is composed of the set of input",1,"The figure captions partly explain biological neurons and perceptrons, but diagram symbols are mixed into the text and the perceptron explanation is incomplete."
+B,uow_ai_ml,5,uow_ai_ml_p005_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is a constellation of many dierent
+technologies working together to enable machines to sense,
+comprehend, act, and learn with human-like levels of intelligence.
+AI isn’t just one thing. (https://accenture.com)
+5 / 40",2,"The chunk gives a complete AI definition, describing technologies that enable machines to sense, understand, act, and learn. It can be understood on its own."
+B,uow_ai_ml,6,uow_ai_ml_p006_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is the simulation of human intelligence
+processes by machines, especially computer systems. These
+processes include learning (the acquisition of information or rules
+for using the information), reasoning (using the rules to reach
+approximate or denite conclusions), and self-correction.
+(https://exploreai.org/p/ai-definition)
+5 / 40",2,"The chunk clearly defines AI as the simulation of human intelligence, including learning, reasoning, and self-correction. No additional context is needed."
+B,uow_ai_ml,7,uow_ai_ml_p007_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Human intelligence? - Take One!
+Human intelligence is a mental quality that consists of the abilities
+to learn from experience, adapt to new situations, understand and
+handle abstract concepts, and use knowledge to manipulate one’s
+environment (https://www.britannica.com).
+Human intelligence? - Take two!
+Through intelligence, humans possess the cognitive abilities to
+learn, form concepts, understand, apply logic and reason, including
+the capaciti",1,"The first definition of human intelligence is understandable, but the second definition is cut off mid-word, leaving the overall passage incomplete."
+B,uow_ai_ml,8,uow_ai_ml_p008_paragraph_001,"A bit of history
+Darthmouth meeting - 1956
+Figure: Founding Fathers of Articial Intelligence
+6 / 40",1,"The chunk identifies the 1956 Dartmouth meeting as an event in AI history, but it mainly contains a heading and figure caption without enough explanation."
+B,uow_ai_ml,10,uow_ai_ml_p010_paragraph_001,"Strong vs Weak AI
+Strong AI
+Strong articial intelligence (AI), also known as articial general
+intelligence (AGI) or general AI, is a theoretical form of AI used to
+describe a certain mindset of AI development.
+Strong AI aims to create intelligent machines that are indistinguishable
+from the human mind.
+(https://www.ibm.com/cloud/learn/strong-ai)
+Weak AI
+Weak AI, also known as narrow AI, focuses on performing a specic task,
+such as answering questions based on user input or playing chess.
+It c",1,"The chunk introduces Strong AI and Weak AI and gives context about specific tasks, but the explanation of Weak AI ends mid-sentence."
+C,colliot_ml_2023,2,colliot_ml_2023_p002_paragraph_001,"Chapter 1
+A non-technical introduction
+to machine learning
+Olivier Colliot*1
+1Sorbonne Universit´e, Institut du Cerveau - Paris Brain Institute - ICM,
+CNRS, Inria, Inserm, AP-HP, Hˆopital de la Piti´e-Salpˆetri`ere, F-75013, Paris,
+France
+*Corresponding author: e-mail address: olivier.colliot@cnrs.fr
+Abstract
+This chapter provides an introduction to machine learning for a non-
+technical readership. Machine learning is an approach to articial intelli-
+gence. The chapter thus starts with a brief ",1,"The chapter title and abstract clearly introduce machine learning, but the chunk ends mid-sentence, so the introduction is incomplete."
+C,colliot_ml_2023,3,colliot_ml_2023_p003_paragraph_001,"2
+Colliot
+which are easy to perform for a human and are inherently dicult for a
+computer are for instance recognizing objects, faces or animals in pho-
+tographs, or recognizing words in speech. On the other hand, there are
+also tasks which are inherently easy for a computer and dicult for a hu-
+man, such as computing with large numbers or memorizing exactly huge
+amounts of text. Machine learning is the AI technique that has achieved
+the most impressive successes over the past years. However, i",1,"The comparison between human and computer abilities is understandable, but the chunk starts without full context and ends mid-sentence."
+C,colliot_ml_2023,4,colliot_ml_2023_p004_paragraph_001,"Introduction to machine learning
+3
+2000
+1950
+1960
+1970
+1980
+1990
+2020
+2010
+1940
+Artificial
+neuron model
+Turing
+test
+Dartmouth
+workshop
+Perceptron
+Back-
+propagation
+SVM
+Deep
+learning
+era
+Expert
+systems
+Figure 1: A brief timeline of AI with some of the landmark advances.
+proposed an articial neuron model, which is a mathematical abstraction
+of a biological neuron [3], and showed that sets of neurons can compute
+logical operations. In 1948, the mathematician and philosopher Norbert
+Wiener coined t",0,"The timeline years and event labels are scattered without clear connections, making the figure difficult to understand; the following explanation is also cut off."
+C,colliot_ml_2023,5,colliot_ml_2023_p005_paragraph_001,"4
+Colliot
+on the basis of the conjecture that every aspect of learning or
+any other feature of intelligence can in principle be so pre-
+cisely described that a machine can be made to simulate it.
+An attempt will be made to nd how to make machines use
+language, form abstractions and concepts, solve kinds of prob-
+lems now reserved for humans, and improve themselves. We
+think that a signicant advance can be made in one or more of
+these problems if a carefully selected group of scientists work
+on",1,"The passage conveys the idea that intelligence may be described so machines can simulate it, but it begins in the middle of a quotation and ends before the idea is complete."
+C,colliot_ml_2023,6,colliot_ml_2023_p006_paragraph_001,"Introduction to machine learning
+5
+(a)
+x1
+x2...
+xp
+y
+Axon
+Dendrites
+Axon terminal
+Cell body
+(b)
+!!
+!""
+!#
+∑
+""
+…
+$""
+$!
+Output
+Inputs
+Weights
+Sum
+Non-Linearity
+%
+$#
+Figure 2: (a) Biological neuron. The synapses form the input of the
+neuron.
+Their signals are combined and if the result exceeds a given
+threshold, the neuron is activated and produces an output signal which is
+sent through the axon. (b) The perceptron: an articial neuron which is
+inspired by biology. It is composed of the set of input",1,"The figure captions partly explain biological neurons and perceptrons, but diagram symbols are mixed into the text and the perceptron explanation is incomplete."
+C,uow_ai_ml,5,uow_ai_ml_p005_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is a constellation of many dierent
+technologies working together to enable machines to sense,
+comprehend, act, and learn with human-like levels of intelligence.
+AI isn’t just one thing. (https://accenture.com)
+5 / 40",2,"The chunk gives a complete AI definition, describing technologies that enable machines to sense, understand, act, and learn. It can be understood on its own."
+C,uow_ai_ml,6,uow_ai_ml_p006_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Articial intelligence is the simulation of human intelligence
+processes by machines, especially computer systems. These
+processes include learning (the acquisition of information or rules
+for using the information), reasoning (using the rules to reach
+approximate or denite conclusions), and self-correction.
+(https://exploreai.org/p/ai-definition)
+5 / 40",2,"The chunk clearly defines AI as the simulation of human intelligence, including learning, reasoning, and self-correction. No additional context is needed."
+C,uow_ai_ml,7,uow_ai_ml_p007_paragraph_001,"Introduction
+What is Articial Intelligence (AI)?
+Human intelligence? - Take One!
+Human intelligence is a mental quality that consists of the abilities
+to learn from experience, adapt to new situations, understand and
+handle abstract concepts, and use knowledge to manipulate one’s
+environment (https://www.britannica.com).
+Human intelligence? - Take two!
+Through intelligence, humans possess the cognitive abilities to
+learn, form concepts, understand, apply logic and reason, including
+the capaciti",1,"The first definition of human intelligence is understandable, but the second definition is cut off mid-word, leaving the overall passage incomplete."
+C,uow_ai_ml,8,uow_ai_ml_p008_paragraph_001,"A bit of history
+Darthmouth meeting - 1956
+Figure: Founding Fathers of Articial Intelligence
+6 / 40",1,"The chunk identifies the 1956 Dartmouth meeting as an event in AI history, but it mainly contains a heading and figure caption without enough explanation."
+C,uow_ai_ml,10,uow_ai_ml_p010_paragraph_001,"Strong vs Weak AI
+Strong AI
+Strong articial intelligence (AI), also known as articial general
+intelligence (AGI) or general AI, is a theoretical form of AI used to
+describe a certain mindset of AI development.
+Strong AI aims to create intelligent machines that are indistinguishable
+from the human mind.
+(https://www.ibm.com/cloud/learn/strong-ai)
+Weak AI
+Weak AI, also known as narrow AI, focuses on performing a specic task,
+such as answering questions based on user input or playing chess.
+It c",1,"The chunk introduces Strong AI and Weak AI and gives context about specific tasks, but the explanation of Weak AI ends mid-sentence."

@@ -1,0 +1,610 @@
+{
+  "dataset_name": "AI and Machine Learning Fundamentals",
+  "created_at": "2026-11-13",
+  "documents": [
+    {
+      "source_id": "uow_ai_ml",
+      "title": "A Gentle Introduction to Artificial Intelligence and Machine Learning",
+      "filename": "ai_ml_fundamentals_uow.pdf",
+      "source_url": null,
+      "license_or_permission": "TO_VERIFY",
+      "version": null,
+      "source_path_or_url": "starter/data/raw/ai_ml_fundamentals_uow.pdf",
+      "accessed_at": null,
+      "total_pages": 56,
+      "readable_pages": 53,
+      "valid_content_pages": 44,
+      "pages": [
+        {
+          "page_id": "uow_ai_ml_p001",
+          "page_number": 1,
+          "char_count": 237,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p002",
+          "page_number": 2,
+          "char_count": 647,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p003",
+          "page_number": 3,
+          "char_count": 1308,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p004",
+          "page_number": 4,
+          "char_count": 853,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p005",
+          "page_number": 5,
+          "char_count": 499,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p006",
+          "page_number": 6,
+          "char_count": 713,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p007",
+          "page_number": 7,
+          "char_count": 1145,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p008",
+          "page_number": 8,
+          "char_count": 166,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p009",
+          "page_number": 9,
+          "char_count": 98,
+          "readable": false,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p010",
+          "page_number": 10,
+          "char_count": 1437,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p011",
+          "page_number": 11,
+          "char_count": 1437,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p012",
+          "page_number": 12,
+          "char_count": 190,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p013",
+          "page_number": 13,
+          "char_count": 194,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p014",
+          "page_number": 14,
+          "char_count": 386,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p015",
+          "page_number": 15,
+          "char_count": 670,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p016",
+          "page_number": 16,
+          "char_count": 335,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p017",
+          "page_number": 17,
+          "char_count": 425,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p018",
+          "page_number": 18,
+          "char_count": 475,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p019",
+          "page_number": 19,
+          "char_count": 433,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p020",
+          "page_number": 20,
+          "char_count": 415,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p021",
+          "page_number": 21,
+          "char_count": 717,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p022",
+          "page_number": 22,
+          "char_count": 925,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p023",
+          "page_number": 23,
+          "char_count": 578,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p024",
+          "page_number": 24,
+          "char_count": 707,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p025",
+          "page_number": 25,
+          "char_count": 672,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p026",
+          "page_number": 26,
+          "char_count": 392,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p027",
+          "page_number": 27,
+          "char_count": 194,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p028",
+          "page_number": 28,
+          "char_count": 647,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p029",
+          "page_number": 29,
+          "char_count": 985,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p030",
+          "page_number": 30,
+          "char_count": 575,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p031",
+          "page_number": 31,
+          "char_count": 187,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p032",
+          "page_number": 32,
+          "char_count": 553,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p033",
+          "page_number": 33,
+          "char_count": 247,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p034",
+          "page_number": 34,
+          "char_count": 1121,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p035",
+          "page_number": 35,
+          "char_count": 144,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p036",
+          "page_number": 36,
+          "char_count": 1087,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p037",
+          "page_number": 37,
+          "char_count": 319,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p038",
+          "page_number": 38,
+          "char_count": 599,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p039",
+          "page_number": 39,
+          "char_count": 166,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p040",
+          "page_number": 40,
+          "char_count": 530,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p041",
+          "page_number": 41,
+          "char_count": 454,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p042",
+          "page_number": 42,
+          "char_count": 353,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p043",
+          "page_number": 43,
+          "char_count": 672,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p044",
+          "page_number": 44,
+          "char_count": 890,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p045",
+          "page_number": 45,
+          "char_count": 763,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p046",
+          "page_number": 46,
+          "char_count": 1034,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p047",
+          "page_number": 47,
+          "char_count": 1095,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p048",
+          "page_number": 48,
+          "char_count": 938,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p049",
+          "page_number": 49,
+          "char_count": 1068,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p050",
+          "page_number": 50,
+          "char_count": 1059,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "uow_ai_ml_p051",
+          "page_number": 51,
+          "char_count": 49,
+          "readable": false,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p052",
+          "page_number": 52,
+          "char_count": 469,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p053",
+          "page_number": 53,
+          "char_count": 395,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p054",
+          "page_number": 54,
+          "char_count": 1533,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p055",
+          "page_number": 55,
+          "char_count": 702,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "uow_ai_ml_p056",
+          "page_number": 56,
+          "char_count": 15,
+          "readable": false,
+          "count_as_valid": false
+        }
+      ]
+    },
+    {
+      "source_id": "colliot_ml_2023",
+      "title": "A non-technical introduction to machine learning",
+      "filename": "ml_introduction_colliot_2023.pdf",
+      "source_url": "https://hal.science/hal-03957125v3",
+      "license_or_permission": "CC BY 4.0",
+      "version": "hal-03957125v3",
+      "source_path_or_url": "starter/data/raw/ml_introduction_colliot_2023.pdf",
+      "accessed_at": null,
+      "total_pages": 26,
+      "readable_pages": 26,
+      "valid_content_pages": 23,
+      "pages": [
+        {
+          "page_id": "colliot_ml_2023_p001",
+          "page_number": 1,
+          "char_count": 1640,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "colliot_ml_2023_p002",
+          "page_number": 2,
+          "char_count": 2549,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p003",
+          "page_number": 3,
+          "char_count": 4523,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p004",
+          "page_number": 4,
+          "char_count": 3609,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p005",
+          "page_number": 5,
+          "char_count": 4779,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p006",
+          "page_number": 6,
+          "char_count": 1262,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p007",
+          "page_number": 7,
+          "char_count": 3534,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p008",
+          "page_number": 8,
+          "char_count": 3690,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p009",
+          "page_number": 9,
+          "char_count": 2380,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p010",
+          "page_number": 10,
+          "char_count": 4708,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p011",
+          "page_number": 11,
+          "char_count": 2668,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p012",
+          "page_number": 12,
+          "char_count": 3103,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p013",
+          "page_number": 13,
+          "char_count": 2866,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p014",
+          "page_number": 14,
+          "char_count": 955,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p015",
+          "page_number": 15,
+          "char_count": 4185,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p016",
+          "page_number": 16,
+          "char_count": 545,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p017",
+          "page_number": 17,
+          "char_count": 4511,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p018",
+          "page_number": 18,
+          "char_count": 1150,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p019",
+          "page_number": 19,
+          "char_count": 3860,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p020",
+          "page_number": 20,
+          "char_count": 3609,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p021",
+          "page_number": 21,
+          "char_count": 6375,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p022",
+          "page_number": 22,
+          "char_count": 2871,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p023",
+          "page_number": 23,
+          "char_count": 736,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p024",
+          "page_number": 24,
+          "char_count": 952,
+          "readable": true,
+          "count_as_valid": true
+        },
+        {
+          "page_id": "colliot_ml_2023_p025",
+          "page_number": 25,
+          "char_count": 5244,
+          "readable": true,
+          "count_as_valid": false
+        },
+        {
+          "page_id": "colliot_ml_2023_p026",
+          "page_number": 26,
+          "char_count": 3741,
+          "readable": true,
+          "count_as_valid": false
+        }
+      ]
+    }
+  ]
+}
